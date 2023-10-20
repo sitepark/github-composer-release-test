@@ -3,8 +3,6 @@
 /vendor
 /vendor.orig
 .idea
-.cache/*
-!.cache/.gitkeep
 /var/cache/*
 !var/cache/.gitkeep
 /var/log/*

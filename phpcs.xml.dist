@@ -8,7 +8,7 @@
 	<arg name="extensions" value="php"/>
 	<arg name="tab-width" value="4"/>
 	<arg name="parallel" value="6"/>
-	<arg name="report-checkstyle" value="./target/checkstyle-result.xml"/>
+	<arg name="report-checkstyle" value="./var/log/checkstyle-result.xml"/>
 	<arg name="report-full"/>
 
 	<file>src/</file>
