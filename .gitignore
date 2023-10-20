@@ -1,5 +1,3 @@
-/target
-!target/.gitkeep
 /vendor
 /vendor.orig
 .idea
