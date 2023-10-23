@@ -9,6 +9,6 @@ jobs:
       botName: "sitepark-bot"
       botEmail: "opensource@sitepark.com"
     secrets:
-      SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-      RELEASE_HELPER_TOKEN: ${{ secrets.RELEASE_HELPER_TOKEN }}
+      # Sitepark-BOT personal access token
+      BOT_PAT: ${{ secrets.BOT_PAT }}
   
