@@ -13,4 +13,6 @@ jobs:
   verify:
     #uses: sitepark/github-project-workflow/.github/workflows/composer-verify.yml@release/1.x
     uses: sitepark/github-project-workflow/.github/workflows/composer-verify.yml@main
+    secrets:
+      CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
