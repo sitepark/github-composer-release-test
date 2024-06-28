@@ -11,3 +11,7 @@ tab_width = 4
 
 [{*.json}]
 indent_style = tab
+
+[{*.yaml}]
+indent_style = space
+indent_size = 2
