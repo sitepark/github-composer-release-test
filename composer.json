@@ -20,7 +20,26 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=8.1 <8.4.0"
+        "php": ">=8.1 <8.4.0",
+        "ext-ctype": "*",
+        "ext-date": "*",
+        "ext-dom": "*",
+        "ext-filter": "*",
+        "ext-hash": "*",
+        "ext-iconv": "*",
+        "ext-intl": "*",
+        "ext-json": "*",
+        "ext-libxml": "*",
+        "ext-openssl": "*",
+        "ext-pcre": "*",
+        "ext-posix": "*",
+        "ext-simplexml": "*",
+        "ext-sodium": "*",
+        "ext-spl": "*",
+        "ext-sysvsem": "*",
+        "ext-xml": "*",
+        "ext-zend-opcache": "*",
+        "ext-zip": "*"
     },
     "require-dev": {
         "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
@@ -29,6 +48,11 @@
         "phpunit/phpunit": "^10.4",
         "roave/security-advisories": "dev-latest",
         "squizlabs/php_codesniffer": "^3.7"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
     },
     "scripts": {
 
