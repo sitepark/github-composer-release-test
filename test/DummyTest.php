@@ -15,7 +15,7 @@ class DummyTest extends TestCase
         $this->assertEquals(
             'test',
             $dummy->getName(),
-            'unexpected name'
+            'unexpected name',
         );
     }
 }
