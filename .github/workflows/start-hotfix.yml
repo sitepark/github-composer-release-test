@@ -6,4 +6,5 @@ jobs:
     release:
         uses: sitepark/github-project-workflow/.github/workflows/composer-start-hotfix.yml@main
         with:
+            phpVersion: "8.4"
             ref: ${{ github.ref }}
