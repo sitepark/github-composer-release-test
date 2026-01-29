@@ -11,6 +11,7 @@ on:
 
 jobs:
     verify:
+        permissions: write-all
         uses: sitepark/github-project-workflow/.github/workflows/composer-verify.yml@main
         with:
             phpVersions: '["8.2","8.3","8.4"]'
