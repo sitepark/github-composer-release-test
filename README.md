@@ -3,3 +3,4 @@
 Project to tests composer releases with github actions.
 
 test
+ test2
